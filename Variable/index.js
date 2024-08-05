@@ -74,10 +74,10 @@ let fee = 20000;
 console.log(` your ${age}` );
 console.log(typeof age ) // for type print 
 
-document.getElementById("Text2").textContent =
-  "your age" + age + "name is " + Name + "fee is " + fee;
+// document.getElementById("Text2").textContent=``; =
+//   "your age" + age + "name is " + Name + "fee is " + fee;
 
-
+document.getElementById("Text2").textContent=`your name ${Name} and age ${20} and your fee is ${fee}`;
 
 
 
