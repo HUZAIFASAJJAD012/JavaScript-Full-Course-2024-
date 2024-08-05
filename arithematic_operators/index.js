@@ -62,3 +62,60 @@ let  multi=num5*num6;
 
 
 document.getElementById("multi").textContent= `the multi is ${multi}`;
+
+// divide * 
+
+let num7=13;
+let num8=10;
+
+let  div=num7 / num8;
+
+
+document.getElementById("divide").textContent= `the divide is ${div} `;
+
+// remainder %
+
+let num07=13;
+let num08=10;
+
+let  R=num07%num08;
+
+
+document.getElementById("Rem").textContent= `the remainder is ${R} `;
+
+
+
+
+// power %
+
+let num01=13;
+let num02=10;
+
+let  Power=num01**num02;
+
+
+document.getElementById("pow").textContent= `the power is ${Power} `;
+
+
+// Increment (++)
+
+let num03=13;
+num03++;
+
+
+
+
+
+document.getElementById("Increment").textContent= `the Increment is ${num03} `;
+
+
+// Decrement (--)
+
+let num04=13;
+num04--;
+
+
+
+
+
+document.getElementById("Decrement").textContent= `the Increment is ${num04} `;
