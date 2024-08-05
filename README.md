@@ -19,9 +19,4 @@ This lecture series is designed for both beginners and experienced developers wh
 
 Before starting with this lecture series, it is recommended to have a basic understanding of HTML and CSS. Familiarity with programming concepts is also helpful but not mandatory.
 
-## Installation
 
-To get started with the materials in this repository, you can clone the repository using the following command:
-
-```sh
-git clone https://github.com/yourusername/javascript-lecture.git
