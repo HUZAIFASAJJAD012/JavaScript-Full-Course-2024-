@@ -6,6 +6,7 @@ document.getElementById("btn").onclick=function(){
     if(age>=18){
 
    document.getElementById("text").textContent=`your age is  ${age} your are 18+`;
+   
 
     }
 else{
