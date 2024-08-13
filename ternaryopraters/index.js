@@ -24,3 +24,9 @@ purAmount=100;
 let message3= purAmount <=1000 ? parseInt("10%"):parseInt("0%");
 
 console.log(message3);
+
+
+let Name =window.prompt("your name ","enter your name ");
+
+Name=Name.trim().charAt(0).toUpperCase()+Name.trim().slice(1).toUpperCase();
+alert(Name);
