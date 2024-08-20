@@ -31,3 +31,28 @@ callback();
 
 
  // add two numbers
+
+sum(display,4,5)
+
+ function  sum(callback,x,y){
+
+
+    let result=x+y;
+
+    callback(result);
+
+
+
+
+
+
+
+ }
+
+
+ function display(result){
+
+
+console.log(result);
+
+ }
