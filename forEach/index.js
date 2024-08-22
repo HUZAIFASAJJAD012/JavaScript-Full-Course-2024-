@@ -33,7 +33,7 @@ function double(element, index, array) {
   array[index] = element * 2;
 }
 function display(element) {
-  console.log(element);
+  console.log(element)
 }
 
 
