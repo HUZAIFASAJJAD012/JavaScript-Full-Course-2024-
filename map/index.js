@@ -25,3 +25,16 @@ function sum(element){
 }
 
  
+
+
+const  students= ['ali','huzaifa','tanveer'];
+
+const   uper=students.map(upperCase);
+console.log(uper);
+function upperCase(element){
+
+
+return  element.toUpperCase();
+
+
+}
