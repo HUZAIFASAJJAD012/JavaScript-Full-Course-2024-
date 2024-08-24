@@ -6,7 +6,7 @@ const number = [2, 3, 4, 5, 6, 7, 8, 9];
 
 const multi = number.map(sum);
 
-console.log(multi.map(sum));
+console.log(multi);
 
 function sum(element) {
   return element * 2;
