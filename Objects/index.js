@@ -1,17 +1,15 @@
-// array = a variable like   structure that can hold more than one values
+// Object =  a collection pf related properties  and/or methods can represent real world object (people,place porduct )
 
-let array = [16, 52, 43, 35, 62, 3];
-// array.push(637); // add value at the  end of arry
-// array.unshift(232); // add value it the start of the  array
-// array.shift(); // remove value from the start of array
-array.sort().reverse();
-//for loop
-for (let i = 0; i < array.length; i++) {
-  array[i];
-  console.log(array[i]);
-}
-console.log("/////////////////////////");
-//for loop shortcut
-for (let arrays of array) {
-  console.log(arrays);
-}
+
+
+const data={
+
+Name:`huzzaifa`, 
+Age:23,
+Hello:function(){console.log('heloo')}
+
+};
+
+console.log(data.Name);
+console.log(data.Age);
+console.log(data.Hello());
