@@ -4,8 +4,8 @@ const data = {
   Name: `huzzaifa`,
   Age: 23,
   Hello: function () {
-    console.log("heloo");
-  },
+   return console.log("heloo");
+},
 };
 
 console.log(data.Name);
@@ -16,7 +16,7 @@ const data2 = {
   Name: `ali`,
   Age: 24,
   Func: () => {
-    console.log(`you fee is 10,000000`);
+    return console.log(`you fee is 10,000000`);
   },
 };
 console.log(data2.Name);
