@@ -1,6 +1,8 @@
 // forEach()
-/* The forEach() method is a common array method in JavaScript used to execute a provided function once for each array element. 
-It's often used for iterating over the elements of an array to perform actions, like logging them to the console, 
+/* The forEach() method is a common array method in JavaScript used to execute a provided function 
+once for each array element. 
+It's often used for iterating over the elements 
+of an array to perform actions, like logging them to the console, 
 modifying each element, or applying some logic
  but the forEach function change the arrauy value  */
 
